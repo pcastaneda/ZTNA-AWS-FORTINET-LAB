@@ -291,3 +291,9 @@ variable "license" {
   type    = string
   default = "license.lic"
 }
+
+
+variable "ems_size" {
+  default = "t3.medium"
+
+}
